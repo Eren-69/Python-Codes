@@ -1,0 +1,30 @@
+n = int (input("Enter the rows of pattern "))
+for i in range (0,n):
+    for j in range (0,i+1):
+        print ("*",end =' ')
+    print()
+
+n = int (input("Enter the rows of pattern "))
+for i in range (0,n+1):
+    for j in range (0,n+1):
+        if (j<= (n-i)):
+            print (" ",end =' ')
+        else:
+            print ("*",end =' ')
+    print()
+
+n = int (input("Enter the rows of pattern "))
+for i in range (n):
+    for j in range (i,n):
+        print ("*",end =' ')
+    print()
+
+n = int (input("Enter the rows of pattern "))
+for i in range (0,n+1):
+    for j in range (0,n+1):
+        if (j<= (n-i)):
+            print (" ",end =' ')
+        else:
+            print ("*",end =' ')
+    print()
+
